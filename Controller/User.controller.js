@@ -1,7 +1,7 @@
 const UserCollection =  require('../Models/User.model')
 const bcrypt = require('bcryptjs');
 
-
+//can new data to the user 
 const create = async function(req,res,next){
 
     try{
